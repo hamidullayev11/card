@@ -1,0 +1,85 @@
+
+$height:447px;
+$wd:400px;
+$bg:#ffd543;
+
+
+@mixin card(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+  
+}
+
+.father{
+    height: $height;
+    width: $wd;
+    background-color: $bg;
+}
+body{
+    @include card();
+    background-color: #5cb5f9;
+    height: 87vh;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: #ffd543;
+    box-shadow: 0px 13px 12px 7px #a88927;
+  
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.div4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px ;
+    margin-top: 15px;
+}
+.div5{
+    @include card();
+    justify-content: space-around;
+}
+.div6{
+    text-align: center;
+}
+.div7{
+    text-align: center;
+}
+.div8{
+    @include card();
+    justify-content: space-around;
+}
+.div9{
+    text-align: center;
+}
+.div10{
+    text-align: center;
+}
+.div11{
+    @include card();
+    justify-content: space-around;
+}
+.div12{
+    text-align: center;
+}
+.div13{
+    text-align: center;
+}
+
+
+
+
+
+       
